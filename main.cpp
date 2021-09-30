@@ -5,6 +5,7 @@
 #include <iostream>
 
 using namespace std;
+
 bool StatusCheck();
 void Input();
 int  Process(int a, int b);
