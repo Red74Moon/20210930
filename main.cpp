@@ -18,8 +18,10 @@ int main()
 	while (Status)
 	{
 		Input();
+
+		StatusCheck();
 		
-		Process(a,b);
+		Process(a, b);
 
 		Output();
 	}
@@ -38,8 +40,6 @@ void Input()
 	cout << "두 수를 입력하세요(정수), 첫번째 수가 10이면 마침니다." << endl;
 	cout << "첫번째수 : ";
 	cin >> a;
-
-	StatusCheck();
 
 	cout << "두번째수 : ";
 	cin >> b;
